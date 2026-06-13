@@ -25,7 +25,7 @@ export default function NtecHome() {
     // TODO: Replace with your actual Formspree endpoint
     // Example: https://formspree.io/f/YOUR_FORM_ID
     try {
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const response = await fetch('https://formspree.io/f/xnjylapr', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
